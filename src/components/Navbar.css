@@ -1,0 +1,179 @@
+nav {
+  height: 4rem;
+  margin-top: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 1.5rem;
+  padding: 0 1rem;
+  padding: 3rem 3rem;
+  margin-bottom: 10px;
+}
+.btn-container {
+  display: flex;
+  background-color: none;
+}
+.btn-container-header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  padding: 24px 42px 24px 42px;
+  border-radius: 87px;
+  border: 1px #23252b solid;
+  justify-content: center;
+  align-items: center;
+  gap: 16px;
+
+  cursor: pointer;
+}
+.btn-container-header .btn-header {
+  display: flex; /* Use inline-block instead of inline */
+  text-align: center;
+  color: #23252b;
+  font-size: 16px;
+  font-family: 'Inter';
+  font-weight: 600;
+  word-wrap: break-word;
+  cursor: pointer;
+  border: none;
+  width: 100%;
+  height: 100%;
+  background: transparent;
+}
+.overlay-cart {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  position: absolute;
+  top: 30px;
+  right: 55px;
+  width: 492px;
+  height: 981px;
+  background: #fff;
+  border: 1px solid black;
+  z-index: 1;
+  padding: 20px;
+  border-radius: 15px;
+}
+.popup {
+  overflow: hidden;
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: column-reverse; /* Stack items in reverse order */
+  justify-content: center;
+  align-items: center;
+}
+
+.profile-container {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 40px;
+}
+
+.profile {
+  width: 50px;
+  height: 50px;
+  background-color: #29627f;
+  border-radius: 50%;
+}
+
+.wallet-container {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-direction: column;
+  height: auto; /* Allow the container to grow in height */
+  padding: 20px 0;
+}
+.wallet-title {
+  font-size: 14px;
+  line-height: 20.93px;
+  color: rgba(123, 123, 123, 1);
+}
+.wallet-price {
+  font-size: 36px;
+  line-height: 60.8px;
+  font-weight: bold;
+  color: rgba(2, 7, 29, 1);
+  margin-bottom: 50px;
+}
+.wallet-heading {
+  font-weight: 800;
+  font-size: 24px;
+  line-height: 29.05px;
+  color: rgba(0, 0, 0, 1);
+}
+.wallet-empty {
+  display: flex;
+  align-self: center;
+  text-align: center;
+  margin-top: 100px;
+  font-size: 24px;
+  line-height: 29.05px;
+  color: rgba(97, 117, 135, 1);
+}
+.wallet-img-container {
+  margin-top: 50px;
+  max-width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.wallet-img {
+  max-width: 100%; /* Use max-width to ensure the image is responsive */
+  height: auto;
+  margin-bottom: 20px; /* Add spacing between items */
+  border-radius: 15px;
+}
+.wallet-btn {
+  margin-top: 50px;
+  text-align: center;
+  display: flex;
+  align-self: center;
+  width: 248px;
+  height: 67px;
+  border-radius: 87px;
+  padding: 24px;
+  background-color: rgba(35, 37, 43, 1);
+  color: #fff;
+  justify-content: center;
+}
+
+@media (max-width: 500px) {
+  nav {
+    margin-top: 10px;
+    width: 400px;
+  }
+  .logo {
+    font-size: 18px;
+  }
+  .btn-container-header {
+    display: flex;
+    /* text-align: center; */
+    justify-content: center;
+    align-items: center;
+    width: 130px;
+    height: 100%;
+    padding: 14px 22px 9px 26px;
+    border-radius: 87px;
+    border: 1px #23252b solid;
+    justify-content: center;
+    align-items: center;
+    /* gap: 16px; */
+    cursor: pointer;
+  }
+  .overlay-cart {
+    width: 300px;
+  }
+  .profile {
+    width: 30px;
+    height: 30px;
+  }
+}

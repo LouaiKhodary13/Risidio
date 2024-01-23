@@ -1,0 +1,55 @@
+/* CollectionsComponent.css */
+
+.image-container {
+  position: relative;
+  display: inline-block;
+}
+
+.overlay-link {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  opacity: 0;
+  transition: opacity 0.3s ease-in-out;
+}
+
+.image-container:hover .overlay-link {
+  opacity: 1;
+}
+.image-container:hover .overlay-link-collections {
+  opacity: 1;
+}
+
+.link {
+  width: 248px;
+  height: 67px;
+  background-color: rgba(250, 250, 250, 1);
+  color: rgba(35, 37, 43, 1);
+  text-decoration: none;
+  border-radius: 87px;
+  padding: 24px;
+  font-size: 16px;
+  line-height: 19.36px;
+}
+.image-container:hover .collection-img {
+  filter: brightness(35%);
+  cursor: pointer;
+}
+a:link,
+a:visited {
+  text-decoration: none;
+  display: block;
+  margin-top: 50px;
+  margin-left: 50px;
+}
+.overlay-link-collections {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -100%);
+  text-align: center;
+  opacity: 0;
+  transition: opacity 0.3s ease-in-out;
+}
