@@ -1,5 +1,9 @@
 # Risidio
 
+## Live Demo
+
+Check out the live demo of the Risidio App: [Live Demo](https://risidio-test.netlify.app/)
+
 ## Table of Contents
 
 - [Description](#description)
