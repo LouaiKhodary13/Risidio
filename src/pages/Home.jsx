@@ -187,8 +187,9 @@ const Home = () => {
                 </div>
               </section>
               {/* end of collections */}
+              {/*   start of footer */}
               <Footer />
-              {/* Assuming you have a Footer component */}
+              {/*   end of footer */}
             </>
           )}
         </main>
