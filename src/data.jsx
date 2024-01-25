@@ -5,7 +5,7 @@ import Quiet from './assets/Quiet.jpg';
 import Travel from './assets/Travel.jpg';
 import rain from './assets/rain.jpg';
 const items = [
-  // Your list of items goes here, each item should have an id, imageSrc, title, and price
+  
   {
     id: 1,
     imageSrc: NightIsComing,
